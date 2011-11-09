@@ -131,9 +131,11 @@
 	
     <target name="clean" description="clean up build artifacts">
     	<delete dir="${build.dir}"/>
-    	<svn>
-    		<revert dir="${doc.dir}" recurse="true"/>
-    	</svn>
+        <exec executable="git">
+                <arg value="clean"/>
+                <arg value="-fd"/>
+                <arg value="${doc.dir}"/>
+        </exec>
     	<delete>
 			<fileset dir="${doc.dir}">
 				<type type="file"/>
