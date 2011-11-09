@@ -36,6 +36,7 @@ import atunit.core.NoMockFramework;
 import atunit.easymock.EasyMockFramework;
 import atunit.guice.GuiceContainer;
 import atunit.jmock.JMockFramework;
+import atunit.mockito.MockitoFramework;
 import atunit.spring.SpringContainer;
 
 /**
@@ -156,6 +157,7 @@ public class AtUnit extends JUnit4ClassRunner {
 			switch ( mockFrameworkAnno.value() ) {
 				case EASYMOCK: mockFrameworkClass = EasyMockFramework.class; break;
 				case JMOCK: mockFrameworkClass = JMockFramework.class; break;
+				case MOCKITO: mockFrameworkClass = MockitoFramework.class; break;
 			}
 		}
 		

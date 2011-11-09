@@ -41,7 +41,8 @@ public @interface MockFramework {
 	
 	public enum Option {
 		JMOCK,
-		EASYMOCK
+		EASYMOCK,
+		MOCKITO
 	}
 	
 	Option value();

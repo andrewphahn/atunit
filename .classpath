@@ -22,5 +22,7 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="lib/core/junit/junit-4.4.jar" sourcepath="lib/core/junit/junit-4.4-src.jar"/>
+	<classpathentry kind="lib" path="lib/mockito/mockito-core-1.8.5.jar"/>
+	<classpathentry kind="lib" path="lib/mockito/com.springsource.org.objenesis-1.0.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
