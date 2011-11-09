@@ -6,14 +6,15 @@
 atunit.core
 </TITLE>
 
-<META NAME="keywords" CONTENT="atunit.core package">
 
 <LINK REL ="stylesheet" TYPE="text/css" HREF="../../stylesheet.css" TITLE="Style">
 
 <SCRIPT type="text/javascript">
 function windowTitle()
 {
-    parent.document.title="atunit.core";
+    if (location.href.indexOf('is-external=true') == -1) {
+        parent.document.title="atunit.core";
+    }
 }
 </SCRIPT>
 <NOSCRIPT>
@@ -22,6 +23,7 @@ function windowTitle()
 </HEAD>
 
 <BODY BGCOLOR="white" onload="windowTitle();">
+<HR>
 
 
 <!-- ========= START OF TOP NAVBAR ======= -->

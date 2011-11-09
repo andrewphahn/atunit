@@ -3,4 +3,5 @@ atunit.core
 atunit.easymock
 atunit.guice
 atunit.jmock
+atunit.mockito
 atunit.spring

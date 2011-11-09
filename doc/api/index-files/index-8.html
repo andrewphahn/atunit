@@ -12,7 +12,9 @@ M-Index
 <SCRIPT type="text/javascript">
 function windowTitle()
 {
-    parent.document.title="M-Index";
+    if (location.href.indexOf('is-external=true') == -1) {
+        parent.document.title="M-Index";
+    }
 }
 </SCRIPT>
 <NOSCRIPT>
@@ -21,6 +23,7 @@ function windowTitle()
 </HEAD>
 
 <BODY BGCOLOR="white" onload="windowTitle();">
+<HR>
 
 
 <!-- ========= START OF TOP NAVBAR ======= -->
@@ -77,7 +80,10 @@ function windowTitle()
 <A NAME="_M_"><!-- --></A><H2>
 <B>M</B></H2>
 <DL>
-<DT><A HREF="../atunit/Mock.html" title="annotation in atunit"><B>Mock</B></A> - Annotation Type in <A HREF="../atunit/package-summary.html">atunit</A><DD>Fields with this annotation are populated with mock objects created using the configured framework.<DT><A HREF="../atunit/core/MockFramework.html" title="interface in atunit.core"><B>MockFramework</B></A> - Interface in <A HREF="../atunit/core/package-summary.html">atunit.core</A><DD>&nbsp;<DT><A HREF="../atunit/MockFramework.html" title="annotation in atunit"><B>MockFramework</B></A> - Annotation Type in <A HREF="../atunit/package-summary.html">atunit</A><DD>Tells AtUnit to use a supported mock objects framework.<DT><A HREF="../atunit/MockFramework.Option.html" title="enum in atunit"><B>MockFramework.Option</B></A> - Enum in <A HREF="../atunit/package-summary.html">atunit</A><DD>&nbsp;<DT><A HREF="../atunit/MockFrameworkClass.html" title="annotation in atunit"><B>MockFrameworkClass</B></A> - Annotation Type in <A HREF="../atunit/package-summary.html">atunit</A><DD>Specifies a <A HREF="../atunit/MockFramework.html" title="annotation in atunit"><CODE>MockFramework</CODE></A> implementation to use as the mock objects framework for the test.</DL>
+<DT><A HREF="../atunit/Mock.html" title="annotation in atunit"><B>Mock</B></A> - Annotation Type in <A HREF="../atunit/package-summary.html">atunit</A><DD>Fields with this annotation are populated with mock objects created using the configured framework.<DT><A HREF="../atunit/core/MockFramework.html" title="interface in atunit.core"><B>MockFramework</B></A> - Interface in <A HREF="../atunit/core/package-summary.html">atunit.core</A><DD>&nbsp;<DT><A HREF="../atunit/MockFramework.html" title="annotation in atunit"><B>MockFramework</B></A> - Annotation Type in <A HREF="../atunit/package-summary.html">atunit</A><DD>Tells AtUnit to use a supported mock objects framework.<DT><A HREF="../atunit/MockFramework.Option.html" title="enum in atunit"><B>MockFramework.Option</B></A> - Enum in <A HREF="../atunit/package-summary.html">atunit</A><DD>&nbsp;<DT><A HREF="../atunit/MockFrameworkClass.html" title="annotation in atunit"><B>MockFrameworkClass</B></A> - Annotation Type in <A HREF="../atunit/package-summary.html">atunit</A><DD>Specifies a <A HREF="../atunit/MockFramework.html" title="annotation in atunit"><CODE>MockFramework</CODE></A> implementation to use as the mock objects framework for the test.<DT><A HREF="../atunit/mockito/MockitoFramework.html" title="class in atunit.mockito"><B>MockitoFramework</B></A> - Class in <A HREF="../atunit/mockito/package-summary.html">atunit.mockito</A><DD>&nbsp;<DT><A HREF="../atunit/mockito/MockitoFramework.html#MockitoFramework()"><B>MockitoFramework()</B></A> - 
+Constructor for class atunit.mockito.<A HREF="../atunit/mockito/MockitoFramework.html" title="class in atunit.mockito">MockitoFramework</A>
+<DD>&nbsp;
+</DL>
 <HR>
 
 

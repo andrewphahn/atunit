@@ -12,7 +12,9 @@ Uses of Class atunit.spring.Bean
 <SCRIPT type="text/javascript">
 function windowTitle()
 {
-    parent.document.title="Uses of Class atunit.spring.Bean";
+    if (location.href.indexOf('is-external=true') == -1) {
+        parent.document.title="Uses of Class atunit.spring.Bean";
+    }
 }
 </SCRIPT>
 <NOSCRIPT>
@@ -21,6 +23,7 @@ function windowTitle()
 </HEAD>
 
 <BODY BGCOLOR="white" onload="windowTitle();">
+<HR>
 
 
 <!-- ========= START OF TOP NAVBAR ======= -->

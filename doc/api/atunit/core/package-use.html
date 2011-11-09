@@ -12,7 +12,9 @@ Uses of Package atunit.core
 <SCRIPT type="text/javascript">
 function windowTitle()
 {
-    parent.document.title="Uses of Package atunit.core";
+    if (location.href.indexOf('is-external=true') == -1) {
+        parent.document.title="Uses of Package atunit.core";
+    }
 }
 </SCRIPT>
 <NOSCRIPT>
@@ -21,6 +23,7 @@ function windowTitle()
 </HEAD>
 
 <BODY BGCOLOR="white" onload="windowTitle();">
+<HR>
 
 
 <!-- ========= START OF TOP NAVBAR ======= -->
@@ -101,6 +104,10 @@ Packages that use <A HREF="../../atunit/core/package-summary.html">atunit.core</
 <TD>&nbsp;&nbsp;</TD>
 </TR>
 <TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><A HREF="#atunit.mockito"><B>atunit.mockito</B></A></TD>
+<TD>&nbsp;&nbsp;</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
 <TD><A HREF="#atunit.spring"><B>atunit.spring</B></A></TD>
 <TD>&nbsp;&nbsp;</TD>
 </TR>
@@ -166,6 +173,21 @@ Classes in <A HREF="../../atunit/core/package-summary.html">atunit.core</A> used
 </TR>
 <TR BGCOLOR="white" CLASS="TableRowColor">
 <TD><B><A HREF="../../atunit/core/class-use/MockFramework.html#atunit.jmock"><B>MockFramework</B></A></B>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+</TABLE>
+&nbsp;
+<P>
+<A NAME="atunit.mockito"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+<TH ALIGN="left" COLSPAN="2"><FONT SIZE="+2">
+Classes in <A HREF="../../atunit/core/package-summary.html">atunit.core</A> used by <A HREF="../../atunit/mockito/package-summary.html">atunit.mockito</A></FONT></TH>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><B><A HREF="../../atunit/core/class-use/MockFramework.html#atunit.mockito"><B>MockFramework</B></A></B>
 
 <BR>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>

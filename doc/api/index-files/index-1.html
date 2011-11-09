@@ -12,7 +12,9 @@ A-Index
 <SCRIPT type="text/javascript">
 function windowTitle()
 {
-    parent.document.title="A-Index";
+    if (location.href.indexOf('is-external=true') == -1) {
+        parent.document.title="A-Index";
+    }
 }
 </SCRIPT>
 <NOSCRIPT>
@@ -21,6 +23,7 @@ function windowTitle()
 </HEAD>
 
 <BODY BGCOLOR="white" onload="windowTitle();">
+<HR>
 
 
 <!-- ========= START OF TOP NAVBAR ======= -->
@@ -80,7 +83,7 @@ function windowTitle()
 <DT><A HREF="../atunit/package-summary.html"><B>atunit</B></A> - package atunit<DD>&nbsp;<DT><A HREF="../atunit/AtUnit.html" title="class in atunit"><B>AtUnit</B></A> - Class in <A HREF="../atunit/package-summary.html">atunit</A><DD>This is the JUnit test runner used for AtUnit tests.<DT><A HREF="../atunit/AtUnit.html#AtUnit(java.lang.Class)"><B>AtUnit(Class&lt;?&gt;)</B></A> - 
 Constructor for class atunit.<A HREF="../atunit/AtUnit.html" title="class in atunit">AtUnit</A>
 <DD>&nbsp;
-<DT><A HREF="../atunit/core/package-summary.html"><B>atunit.core</B></A> - package atunit.core<DD>&nbsp;<DT><A HREF="../atunit/easymock/package-summary.html"><B>atunit.easymock</B></A> - package atunit.easymock<DD>&nbsp;<DT><A HREF="../atunit/guice/package-summary.html"><B>atunit.guice</B></A> - package atunit.guice<DD>&nbsp;<DT><A HREF="../atunit/jmock/package-summary.html"><B>atunit.jmock</B></A> - package atunit.jmock<DD>&nbsp;<DT><A HREF="../atunit/spring/package-summary.html"><B>atunit.spring</B></A> - package atunit.spring<DD>&nbsp;</DL>
+<DT><A HREF="../atunit/core/package-summary.html"><B>atunit.core</B></A> - package atunit.core<DD>&nbsp;<DT><A HREF="../atunit/easymock/package-summary.html"><B>atunit.easymock</B></A> - package atunit.easymock<DD>&nbsp;<DT><A HREF="../atunit/guice/package-summary.html"><B>atunit.guice</B></A> - package atunit.guice<DD>&nbsp;<DT><A HREF="../atunit/jmock/package-summary.html"><B>atunit.jmock</B></A> - package atunit.jmock<DD>&nbsp;<DT><A HREF="../atunit/mockito/package-summary.html"><B>atunit.mockito</B></A> - package atunit.mockito<DD>&nbsp;<DT><A HREF="../atunit/spring/package-summary.html"><B>atunit.spring</B></A> - package atunit.spring<DD>&nbsp;</DL>
 <HR>
 
 
